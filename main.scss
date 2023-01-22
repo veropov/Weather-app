@@ -4,43 +4,66 @@
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: black;
+    background: rgb(48, 48, 54);
 }
 
 .Container {
-    margin: 15px;
+    margin-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     .head_app {
+        background: white;
+        border-radius: 16px;
+        padding: 30px;
+        flex-direction: column;
         display: flex;
         justify-content: left;
         align-items: flex-start;
         .title {
+            background: white;
             font-size: 32px;
-            color: white;
+            color: black;
         }
         .subTitle {
+            background: white;
             font-size: 20px;
             color: rgb(192, 192, 192);
         }
     }
     .Weather {
-        margin-top: 20px;
+        background: white;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
         justify-content: left;
-        align-items: flex-start;
+        align-items: center;
         .temp {
-            font-size: 60px;
+            background: white;
+            font-size: 70px;
+        }
+        .icon_weather{
+            background: white;
+            width: 60px;
+            height: 60px;
+            margin-left: 15px;
+            margin-right: 30px;
+            margin-bottom: 30px;
         }
         .title_temp {
+            background: white;
             margin-left: 10px;
             justify-content: left;
             align-items: flex-start;
             .state {
+                background: white;
                 font-size: 20px;
-                color: white;
+                color: black;
             }
             
             .real_state {
+                background: white;
                 font-size: 20px;
                 color: rgb(192, 192, 192);
             }
