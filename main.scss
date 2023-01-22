@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.Container {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .head_app {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        .title {
+            font-size: 32px;
+            color: white;
+        }
+        .subTitle {
+            font-size: 20px;
+            color: rgb(192, 192, 192);
+        }
+    }
+    .Weather {
+        margin-top: 20px;
+        justify-content: left;
+        align-items: flex-start;
+        .temp {
+            font-size: 60px;
+        }
+        .title_temp {
+            margin-left: 10px;
+            justify-content: left;
+            align-items: flex-start;
+            .state {
+                font-size: 20px;
+                color: white;
+            }
+            
+            .real_state {
+                font-size: 20px;
+                color: rgb(192, 192, 192);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.Additional {
+}
+
+.wind {
+}
+
+.damp {
+}
+
+.press {
+}
+
+.bottom_app {
+}
+
+.slider_weather {
+}
