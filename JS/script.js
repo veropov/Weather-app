@@ -1,26 +1,7 @@
+import {date, month, Month, day} from './description.js'
+
 let link = 'http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=e4faef50d5169b10595eabd4cb49bb9c';
 
-let date = new Date();
-let month = [
-    'Января',
-    'Февраля',
-    'Марта',
-    'Апреля',
-    'Мая,',
-    'Июня',
-    'Июля',
-    'Августа',
-    'Сентября',
-    'Октября,',
-    'Ноября',
-    'Декабря,'
-];
-
-function Month() {
-    if (date.getMonth() == 0) { 
-        return month[0] 
-    };
-};
 
 document.querySelector('.subTitle').textContent = date.getUTCDate() + ' ' + Month()
 
